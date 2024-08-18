@@ -3,128 +3,183 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Taichi Kadowaki｜Portfolio site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="mv">
-    <div class="c-container">
-      <div class="mv__profile">
-        <h1><img src="" alt="">Taichi Kadowaki</h1>
-        <p>X（旧Twitter）: <a href="https://x.com/k5k1taichi" target="_blank" class="mv__link">@taichi</a></p>
+  <header>
+    <div class="l-container">
+      <div class="mv">
+        <div class="mv__profile">
+          <h1 class="mv__heading">Taichi Kadowaki</h1>
+          <p>X（旧Twitter）: <a href="https://x.com/k5k1taichi" target="_blank" class="mv__link">@taichi</a></p>
+        </div>
       </div>
     </div>
   </header>
-  <nav class="anchor-nav">
-    <div class="c-container">
-      <ul class="anchor-links">
-        <li class="anchor-links__item">
-          <a href="#accessibility" class="anchor-links__link">アクセシビリティ</a>
-        </li>
-        <li class="anchor-links__item">
-          <a href="#engineering" class="anchor-links__link">エンジニアリング</a>
-        </li>
-        <li class="anchor-links__item">
-          <a href="#design" class="anchor-links__link">デザイン</a>
-        </li>
-      </ul>
+  <nav>
+    <div class="l-container">
+      <div class="anchor-nav">
+        <ul class="anchor-links">
+          <li class="anchor-links__item">
+            <a href="#accessibility" class="anchor-links__link">アクセシビリティ</a>
+          </li>
+          <li class="anchor-links__item">
+            <a href="#engineering" class="anchor-links__link">エンジニアリング</a>
+          </li>
+          <li class="anchor-links__item">
+            <a href="#design" class="anchor-links__link">デザイン</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <main>
-    <section class="c-container u-mt-10 sp:u-mt-8">
+    <section class="l-container u-mt-10 sp:u-mt-8">
       <h2 id="engineering" class="c-heading-lv2">エンジニアリング</h2>
-      <section>
-        <h3 class="c-heading-lv3">Figmaプラグイン</h3>
-        <ul class="c-list">
-          <li class="c-card">
-            <img src="images/Frame 3.png" alt="" class="c-card__img">
-            <a href="https://www.figma.com/community/plugin/1373546421078465935/css-scss-variables-colorizer"  target="_blank" title="外部リンク" class="c-card__link">
-              CSS/SCSS Variables Colorizer
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0_1_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                <rect width="24" height="24" fill="#D9D9D9" style="fill:#D9D9D9;fill:color(display-p3 0.8510 0.8510 0.8510);fill-opacity:1;"/>
-                </mask>
-                <g mask="url(#mask0_1_12)">
-                <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.97917 19.8042 4.5875 19.4125C4.19583 19.0208 4 18.55 4 18V15H6V18H18V15H20V18C20 18.55 19.8042 19.0208 19.4125 19.4125C19.0208 19.8042 18.55 20 18 20H6Z" fill="#1C1B1F" style="fill:#1C1B1F;fill:color(display-p3 0.1098 0.1059 0.1216);fill-opacity:1;"/>
-                </g>
-              </svg>
-            </a>
-            <p class="c-card__description">変数設定の効率化をするために作成しました。<a href="https://zenn.dev/hello_taichi/articles/ac5bf7fd4cbbfe" target="_blank" title="外部リンク">使い方をまとめたブログはこちら。</a><a href="#">GitHubはこちらです。</a></p>
-          </li>
-          <li class="c-card">
-            <img src="images/Frame 4.png" alt="" class="c-card__img">
-            <a href="https://www.figma.com/community/plugin/1379110629075145241/square-wrap"  target="_blank" title="外部リンク" class="c-card__link">Square Wrap</a>
-            <p class="c-card__description">デザインデータがPhotoshopで作られる現チーム。Photoshopではアイコンサイズを揃えるのが難しいということで、簡単にサイズを揃えられるプラグインを開発しました。<a href="#">GitHubはこちらです。</a></p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="c-heading-lv3">過去に書いた記事</h3>
-        <ul class="c-list">
-
-        </ul>
-      </section>
+      <div class="l-list">
+        <article class="c-card">
+          <a href="https://www.figma.com/community/plugin/1373546421078465935/css-scss-variables-colorizer"  target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logo">
+              <img src="images/icon_figma.svg" alt="Figmaのロゴ">
+            </div>
+            <h3 class="c-card__heading">CSS/SCSS Variables Colorizer</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">Figmaプラグイン</li>
+          </ul>
+          <p class="c-card__description">変数設定の効率化をするために作成しました。<a href="https://zenn.dev/hello_taichi/articles/ac5bf7fd4cbbfe" target="_blank" title="外部リンク">使い方をまとめたブログはこちら。</a><a href="#">GitHubはこちらです。</a></p>
+        </article>
+        <article class="c-card">
+          <a href="https://www.figma.com/community/plugin/1379110629075145241/square-wrap"  target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logo">
+              <img src="images/icon_figma.svg" alt="Figmaのロゴ">
+            </div>
+            <h3 class="c-card__heading">Square Wrap</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">Figmaプラグイン</li>
+          </ul>
+          <p class="c-card__description">デザインデータがPhotoshopで作られる現チーム。Photoshopではアイコンサイズを揃えるのが難しいということで、簡単にサイズを揃えられるプラグインを開発しました。<a href="#">GitHubはこちらです。</a></p>
+        </article>
+      </div>
     </section>
-    <section class="c-container u-mt-10 sp:u-mt-8">
+    <section class="l-container u-mt-10 sp:u-mt-8">
       <h2 id="design" class="c-heading-lv2">デザイン</h2>
-      <section>
-        <h3 class="c-heading-lv3">Webサイト</h3>
-        <ul class="c-list">
-          <li class="c-card">
-            <img src="images/buraika.jpg" alt="" class="c-card__img">
-            <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link">無頼花</a>
-            <p class="c-card__description">知人の依頼により作成。使用ツールはSTUDIOです。今後更新のチャンスがあればアクセシビリティを改善したいところが結構あります…。</p>
-          </li>
-          <li class="c-card">
-            <img src="images/buraika.jpg" alt="" class="c-card__img">
-            <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link">LT告知用バナー（リメイク）</a>
-            <p class="c-card__description">社内ライトニングトーク用バナーとして提案したデザインのリメイクです。結果的に採用されませんでした。ただ、Figmaが詳しくない人でも操作できるようにプロパティ機能を活用して、ほぼパネルの値を変更すれば運用できるよう工夫しました。</p>
-          </li>
-          <li class="c-card">
-            <img src="images/buraika.jpg" alt="" class="c-card__img">
-            <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link">営業時の資料</a>
-            <p class="c-card__description">自営業の父から依頼されてチラシのようなものを作っていたことがあります。自分でデザインを作るのは初めてに近かったですが、この時にデザインツールの基本的な使い方が身についた気がします。</p>
-          </li>
-        </ul>
-      </section>
+      <div class="l-list">
+        <article class="c-card">
+          <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logo">
+              <img src="images/icon_buraika.svg" alt="無頼花のロゴ">
+            </div>
+            <h3 class="c-card__heading">無頼花</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">Webサイト</li>
+          </ul>
+          <p class="c-card__description">知人の依頼により作成。使用ツールはSTUDIOです。今後更新のチャンスがあればアクセシビリティを改善したいところが結構あります…。</p>
+        </article>
+        <article class="c-card">
+          <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logo">
+              <img src="images/icon_figma.svg" alt="Figmaのロゴ">
+            </div>
+            <h3 class="c-card__heading">LT告知用バナー（リメイク）</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">バナー</li>
+          </ul>
+          <p class="c-card__description">社内ライトニングトーク用バナーとして提案したデザインのリメイクです。結果的に採用されませんでした。ただ、Figmaが詳しくない人でも操作できるようにプロパティ機能を活用して、ほぼパネルの値を変更すれば運用できるよう工夫しました。</p>
+        </article>
+        <article class="c-card">
+          <a href="https://burai-flowers.com/" target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logo">
+              <img src="images/icon_figma.svg" alt="Figmaのロゴ">
+            </div>
+            <h3 class="c-card__heading">営業時の資料</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">チラシ</li>
+          </ul>
+          <p class="c-card__description">自営業の父から依頼されてチラシのようなものを作っていたことがあります。自分でデザインを作るのは初めてに近かったですが、この時にデザインツールの基本的な使い方が身についた気がします。</p>
+        </article>
+      </div>
     </section>
-    <section class="c-container u-mt-10 sp:u-mt-8">
+    <section class="l-container u-mt-10 sp:u-mt-8">
       <h2 id="accessibility" class="c-heading-lv2">アクセシビリティ</h2>
-      <section>
-        <h3 class="c-heading-lv3">勉強会発表資料</h3>
-        <p class="c-paragraph">社内で行った勉強会の資料をリメイクしたものです。</p>
-        <p class="c-paragraph">資料をダウンロードするとPDFファイルとマークダウンファイルが含まれたzipファイルがダウンロードされます。PDFファイルはスクリーンリーダーでの読み上げに対応できていない可能性があるため、スクリーンリーダーを使用する場合はマークダウンファイルをご使用ください。
-        </p>
-        <p class="c-paragraph"><a href="#" download>すべての資料を一括でダウンロードする方はこちら</a></p>
-        <ul class="c-list">
-          <li class="c-card">
-            <img src="images/Frame 6.png" alt="" class="c-card__img">
-            <a href="https://note.com/tatti1218/n/n23a491dc811f" target="_blank" title="外部リンク" class="c-card__link">アクセシビリティ超入門</a>
-            <p class="c-card__description">情報が伝わらないスライドを用意して、どうやったら情報が伝わるスライドになるかを伝えながらアクセシビリティを学べる内容にしました。</p>
-          </li>
-          <li class="c-card">
-            <img src="images/Frame 7.png" alt="" class="c-card__img">
-            <a href="https://note.com/tatti1218/n/n23a491dc811f" target="_blank" title="外部リンク" class="c-card__link">アクセシビリティの高いUIを作ろう</a>
-            <p class="c-card__description">見た目は同じ、でも実装方法が違う3種類のアコーディオンメニューを例に、アクセシビリティが高いUIについて説明しました。</p>
-          </li>
-          <li class="c-card">
-            <img src="images/Frame 8.png" alt="" class="c-card__img">
-            <a href="https://note.com/tatti1218/n/n23a491dc811f" target="_blank" title="外部リンク" class="c-card__link">アクセシブルな名前</a>
-            <p class="c-card__description">著者由来とコンテンツ由来の違いやroleによってルールが変わることなどに触れながらアクセシブルな名前を学べる内容にしました。</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3 class="c-heading-lv3">過去に書いた記事</h3>
-        <ul class="c-list">
-          <li class="c-card">
-            <img src="images/uccolor.webp" alt="" class="c-card__img">
-            <a href="https://note.com/tatti1218/n/n23a491dc811f" target="_blank" title="外部リンク" class="c-card__link">色彩検定UC級を受験してみた</a>
-            <p class="c-card__description">エンジニア視点だけでなく、デザイナー視点でもアクセシビリティをやっていきたいと思い受験しました。受験を通して学習した内容をまとめています。</p>
-          </li>
-        </ul>
-      </section>
+      <div class="l-list">
+        <article class="c-card">
+          <a href="files/a11y_beginner.zip" download class="c-card__link -download">
+            <div class="c-card__logos">
+              <div class="c-card__logo">
+                <img src="images/icon_pdf.svg" alt="PDFのアイコン">
+              </div>
+              <div class="c-card__logo">
+                <img src="images/icon_md.svg" alt="Markdownのアイコン">
+              </div>
+            </div>
+            <h3 class="c-card__heading">アクセシビリティ超入門</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">勉強会</li>
+          </ul>
+          <p class="c-card__description">情報が伝わらないスライドを用意して、どうやったら情報が伝わるスライドになるかを伝えながらアクセシビリティを学べる内容にしました。</p>
+        </article>
+        <article class="c-card">
+          <a href="files/a11y_ui.zip" download="" class="c-card__link -download">
+            <div class="c-card__logos">
+              <div class="c-card__logo">
+                <img src="images/icon_pdf.svg" alt="PDFのアイコン">
+              </div>
+              <div class="c-card__logo">
+                <img src="images/icon_md.svg" alt="Markdownのアイコン">
+              </div>
+            </div>
+            <h3 class="c-card__heading">アクセシビリティの高いUIを作ろう</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">勉強会</li>
+          </ul>
+          <p class="c-card__description">見た目は同じ、でも実装方法が違う3種類のアコーディオンメニューを例に、アクセシビリティが高いUIについて説明しました。</p>
+        </article>
+        <article class="c-card">
+          <a href="files/a11y_name.zip" download class="c-card__link -download">
+            <div class="c-card__logos">
+              <div class="c-card__logo">
+                <img src="images/icon_pdf.svg" alt="PDFのアイコン">
+              </div>
+              <div class="c-card__logo">
+                <img src="images/icon_md.svg" alt="Markdownのアイコン">
+              </div>
+            </div>
+            <h3 class="c-card__heading">アクセシブルな名前</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">勉強会</li>
+          </ul>
+          <p class="c-card__description">著者由来とコンテンツ由来の違いやroleによってルールが変わることなどに触れながらアクセシブルな名前を学べる内容にしました。</p>
+        </article>
+        <article class="c-card">
+          <a href="https://note.com/tatti1218/n/n23a491dc811f" target="_blank" title="外部リンク" class="c-card__link -external">
+            <div class="c-card__logos">
+              <div class="c-card__logo">
+                <img src="images/icon_note.svg" alt="noteのアイコン">
+              </div>
+            </div>
+            <h3 class="c-card__heading">色彩検定UC級を受験してみた</h3>
+          </a>
+          <ul class="c-card__category">
+            <li class="c-card__category-item">ブログ</li>
+          </ul>
+          <p class="c-card__description">エンジニア視点だけでなく、デザイナー視点でもアクセシビリティをやっていきたいと思い受験しました。受験を通して学習した内容をまとめています。</p>
+        </article>
+      </div>
     </section>
   </main>
+  <footer class="l-footer c-footer">
+    <div class="c-footer__inner">
+      <p class="c-footer__name">Taichi Kadowaki</p>
+    </div>
+  </footer>
 </body>
 </html>
