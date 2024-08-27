@@ -131,6 +131,7 @@ img {
   padding: 16px;
   display: grid;
   grid-template-columns: 1fr 32px;
+  grid-template-rows: auto 1fr;
   gap: 8px;
   text-decoration: none;
   color: #333;
@@ -215,7 +216,8 @@ img {
     width: auto;
   }
   a[target="_blank"] {
-    display: flex;
+    // display: flex;
+    // padding-left: 1em;
   }
 }
 

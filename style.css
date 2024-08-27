@@ -109,6 +109,7 @@ img {
   padding: 16px;
   display: grid;
   grid-template-columns: 1fr 32px;
+  grid-template-rows: auto 1fr;
   gap: 8px;
   text-decoration: none;
   color: #333;
@@ -204,10 +205,6 @@ img {
   height: 1.5em;
   width: auto;
 }
-.c-card__description a[target=_blank] {
-  display: flex;
-}
-
 .c-footer {
   margin-top: 80px;
   background-color: #333;
